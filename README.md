@@ -64,3 +64,6 @@ To overwrite existing classes, use the --force option.
 ```powershell
 dotnet ef dbcontext scaffold "Host=0.0.0.0;Username=postgres;Password=password;Database=DataBaseName" Npgsql.EntityFrameworkCore.PostgreSQL --output-dir <Folder where you want to generate classes> --force
 ```
+```powershell
+dotnet tool install --global dotnet-ef --version 7.*
+```
